@@ -50,4 +50,4 @@ The exact same PACE workflow and techniques apply directly to my field:
 - [Pretty view on nbviewer – recommended!](https://nbviewer.org/github/umanaevelyn/google-advanced-data-analytics-capstone/blob/main/Salifort_Motors_Capstone.ipynb.ipynb) 
 - [Full Portfolio](https://umanaevelyn.github.io/) • [LinkedIn](https://www.linkedin.com/in/evelynrpumana)
 
-© 2025 Evelyn Roxana Pérez Umana
+© 2025 Evelyn Roxana Perez Umana
