@@ -3,7 +3,7 @@
 **Salifort Motors – Employee Churn Prediction**  
 
 **Evelyn Roxana Perez Umana**  
-PhD in Pathology → Data Scientist (Health & Biotech)  
+PhD in Sciences – Pathology → Data Scientist (Health & Biotech)  
 Google Advanced Data Analytics Professional Certificate – December 2025  
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
