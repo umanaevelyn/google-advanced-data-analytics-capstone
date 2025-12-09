@@ -22,15 +22,23 @@ Predict employee turnover using highly imbalanced HR data (churn ≈ 3%).
 **Top predictors**  
 `last_evaluation` • `number_project` • `average_montly_hours` • `time_spend_company` • `satisfaction_level`
 
+## Confusion Matrix
 ![Confusion Matrix](confusion_matrix.png)
 
-## Real conclusion
-The baseline model achieves 82 % accuracy but only detects **26 %** of employees who actually leave.  
-In production I would use Random Forest / XGBoost + resampling techniques to significantly improve recall.
+## Real conclusion (honest & professional)
+The baseline logistic regression model achieves 82 % accuracy, but its **recall for the minority class (employees who actually leave) is only 26 %**.  
+This is a classic symptom of severe class imbalance. While the model is simple and interpretable, it fails to identify most employees at risk of leaving — exactly the ones the business most needs to retain.
 
-## Healthcare applications
-Same pipeline applicable to patient dropout prediction in clinical trials and treatment adherence in postmenopausal cohorts.
+**Production recommendation**  
+In a real environment I would implement stronger models (Random Forest or XGBoost) and/or resampling techniques (SMOTE, class_weight='balanced') to significantly improve recall without sacrificing overall performance.
 
+## Healthcare & Clinical Research applications (PhD perspective)
+The same challenge appears constantly in biomedical settings:  
+- Predicting patient dropout in long-term clinical trials  
+- Forecasting treatment non-adherence in postmenopausal hormone therapy  
+- Early detection of physician burnout using HR + inflammatory biomarkers  
+
+## Links
 ## Links
 - [Interactive Notebook](https://github.com/umanaevelyn/google-advanced-data-analytics-capstone/blob/main/Salifort_Motors_Capstone.ipynb)  
 - [View on nbviewer – pretty render](https://nbviewer.org/github/umanaevelyn/google-advanced-data-analytics-capstone/blob/main/Salifort_Motors_Capstone.ipynb)  
