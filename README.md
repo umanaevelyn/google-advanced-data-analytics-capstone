@@ -1,22 +1,47 @@
 # Google Advanced Data Analytics Capstone  
 **Salifort Motors – Employee Churn Prediction**  
-**Evelyn Roxana Pérez Umana** • PhD Pathology → Data Scientist  
-Google Advanced Data Analytics Certificate – Dic 2025  
 
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+**Evelyn Roxana Pérez Umana** • PhD Pathology → Data Scientist (Health & Biotech)  
+Google Advanced Data Analytics Professional Certificate – Dic 2025  
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 
 ## Business problem
-Predict whether an employee will leave the company using historical HR data.
+Predict whether an employee will leave the company using historical HR data (highly imbalanced dataset – churn ≈ 3 %).
 
-## Key results
-- Logistic Regression with `class_weight='balanced'`:  
-  → **Recall (churn) = 0.26** | Accuracy = 0.82  
-- Top predictors: `last_evaluation`, `number_project`, `average_montly_hours`
+## Model results – Logistic Regression (baseline)
+| Metric                | Value | Notes                                      |
+|-----------------------|-------|--------------------------------------------|
+| Accuracy              | 0.82  | High due to class imbalance                |
+| Precision (churn)     | 0.44  | Moderate                                   |
+| Recall (churn)        | 0.26  | Only 26 % of actual leavers detected       |
+| F1-score (churn)      | 0.33  |                                            |
+| AUC                   | 0.82  |                                            |
 
-## Healthcare applications
-This same pipeline can be used to predict patient dropout in clinical trials or treatment non-adherence in postmenopausal hormone therapy cohorts.
+**Top predictors**  
+`last_evaluation` • `number_project` • `average_montly_hours` • `time_spend_company` • `satisfaction_level`
 
-[Open notebook](Salifort_Motors_Capstone.ipynb) • [View on nbviewer](https://nbviewer.org/github/umanaevelyn/google-advanced-data-analytics-capstone/blob/main/Salifort_Motors_Capstone.ipynb)
+![Matriz de confusión](Matrix de confusión.png)
 
-Portfolio: https://umanaevelyn.github.io
+## Real conclusion (honest & professional)
+The baseline logistic regression model achieves 82 % accuracy, but its **recall for the minority class (employees who actually leave) is only 26 %**.  
+This is a classic symptom of severe class imbalance. While the model is simple and interpretable, it fails to identify most employees at risk of leaving — exactly the ones the business most needs to retain.
+
+**Production recommendation**  
+In a real environment I would implement stronger models (Random Forest or XGBoost) and/or resampling techniques (SMOTE, class_weight='balanced') to significantly improve recall without sacrificing overall performance.
+
+## Healthcare & Clinical Research applications (PhD perspective)
+The same challenge appears constantly in biomedical settings:  
+- Predicting patient dropout in long-term clinical trials  
+- Forecasting treatment non-adherence in postmenopausal hormone therapy  
+- Early detection of physician burnout using HR + inflammatory biomarkers  
+
+This project demonstrates my ability to recognize the limitations of baseline models in imbalanced real-world scenarios and propose actionable next steps — a critical skill for health-tech and clinical data science roles.
+
+## Links
+- [Notebook](Salifort_Motors_Capstone.ipynb)  
+- [View on nbviewer](https://nbviewer.org/github/umanaevelyn/google-advanced-data-analytics-capstone/blob/main/Salifort_Motors_Capstone.ipynb)  
+- [Portfolio](https://umanaevelyn.github.io) • [LinkedIn](https://www.linkedin.com/in/evelyn-roxana-perez-umana)
+
+© 2025 Evelyn Roxana Pérez Umana
