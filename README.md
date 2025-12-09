@@ -8,21 +8,21 @@ Google Advanced Data Analytics Professional Certificate – Dic 2025
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 
 ## Business problem
-Predict whether an employee will leave the company using historical HR data (highly imbalanced dataset – churn ≈ 3 %).
+Predict employee turnover using highly imbalanced HR data (churn ≈ 3%).
 
 ## Model results – Logistic Regression (baseline)
 | Metric                | Value | Notes                                      |
 |-----------------------|-------|--------------------------------------------|
 | Accuracy              | 0.82  | High due to class imbalance                |
-| Precision (churn)     | 0.44  | Moderate                                   |
+| Precision (churn)     | 0.44  |                                            |
 | Recall (churn)        | 0.26  | Only 26 % of actual leavers detected       |
 | F1-score (churn)      | 0.33  |                                            |
-| AUC                   | 0.82  |                                            |
 
 **Top predictors**  
 `last_evaluation` • `number_project` • `average_montly_hours` • `time_spend_company` • `satisfaction_level`
 
-![Matriz de confusión](Matrix de confusión.png)
+## Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
 
 ## Real conclusion (honest & professional)
 The baseline logistic regression model achieves 82 % accuracy, but its **recall for the minority class (employees who actually leave) is only 26 %**.  
@@ -37,10 +37,8 @@ The same challenge appears constantly in biomedical settings:
 - Forecasting treatment non-adherence in postmenopausal hormone therapy  
 - Early detection of physician burnout using HR + inflammatory biomarkers  
 
-This project demonstrates my ability to recognize the limitations of baseline models in imbalanced real-world scenarios and propose actionable next steps — a critical skill for health-tech and clinical data science roles.
-
 ## Links
-- [Notebook](Salifort_Motors_Capstone.ipynb)  
+- [Interactive Notebook](Salifort_Motors_Capstone.ipynb)  
 - [View on nbviewer](https://nbviewer.org/github/umanaevelyn/google-advanced-data-analytics-capstone/blob/main/Salifort_Motors_Capstone.ipynb)  
 - [Portfolio](https://umanaevelyn.github.io) • [LinkedIn](https://www.linkedin.com/in/evelyn-roxana-perez-umana)
 
