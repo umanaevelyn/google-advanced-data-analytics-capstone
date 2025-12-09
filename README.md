@@ -2,7 +2,7 @@
 # Google Advanced Data Analytics Capstone  
 **Salifort Motors – Employee Churn Prediction**  
 
-**Evelyn Roxana Pérez Umana**  
+**Evelyn Roxana Perez Umana**  
 PhD in Pathology → Data Scientist (Health & Biotech)  
 Google Advanced Data Analytics Professional Certificate – December 2025  
 
