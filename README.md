@@ -42,4 +42,4 @@ The same challenge appears constantly in biomedical settings:
 - [View on nbviewer](https://nbviewer.org/github/umanaevelyn/google-advanced-data-analytics-capstone/blob/main/Salifort_Motors_Capstone.ipynb)  
 - [Portfolio](https://umanaevelyn.github.io) • [LinkedIn](https://www.linkedin.com/in/evelyn-roxana-perez-umana)
 
-© 2025 Evelyn Roxana Pérez Umana
+© 2025 Evelyn Roxana Perez Umana
