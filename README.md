@@ -1,10 +1,10 @@
 
-# Google Advanced Data Analytics Capstone  
+# This repository contains the final capstone project for the Google Advanced Data Analytics Professional Certificate.  
 **Salifort Motors – Employee Churn Prediction**  
 
 **Evelyn Roxana Perez Umana**  
 PhD in Sciences – Pathology → Data Scientist (Health & Biotech)  
-Google Advanced Data Analytics Professional Certificate – December 2025  
+ 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
